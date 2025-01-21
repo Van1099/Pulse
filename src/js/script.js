@@ -1,1 +1,5 @@
-alert(1)
+$(document).ready(function(){
+    $('.your-class').slick({
+      setting-name: setting-value
+    });
+  });
