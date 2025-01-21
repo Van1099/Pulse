@@ -1,0 +1,18 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../imgs/bg2.png) center (center/cover) no-repeat;
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #fff;
+    }
+}
