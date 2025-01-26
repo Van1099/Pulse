@@ -9,6 +9,7 @@ a {
 }
 
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
@@ -19,4 +20,7 @@ a {
 @import 'blocks/ours';
 @import 'blocks/consultation';
 @import 'blocks/forms';
-@import 'blocks/carousel'
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/response';
+@import 'blocks/footer';

@@ -1,0 +1,37 @@
+.response {
+    color: #0d0d0d;
+    h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 55px;      
+    }
+    &-cards {
+        img {
+            width: 169px;
+            height: 169px;
+            margin-right: 50px;
+        }
+        display: flex;
+    }
+    .response-card {
+        
+        padding-bottom: 25px;
+        &__name {
+            font-weight: 700;
+            font-size: 18px;        
+        }
+        &__stat {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+            padding-bottom: 15px;
+        }
+        &__text {
+            font-weight: 300;
+            font-size: 16px;   
+        }
+    }
+}

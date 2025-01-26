@@ -4,4 +4,34 @@
         margin: 0 auto;
         width: 750px;
     }
+    .prev,  .next {
+        border: none;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .next {
+        right: -66px;
+        left: auto;
+    }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .tns-nav {
+        button {
+            background-color: #3a7704;
+        }
+        .tns-nav-active {
+            background-color: rgb(121, 46, 202);
+        }
+    }
 }
