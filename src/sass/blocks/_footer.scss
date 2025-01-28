@@ -27,5 +27,18 @@
         text-align: center;
         color: #fff;
         margin-bottom: 38px;
+        &:hover {
+            color:#fff;
+        }
+    }
+    &_social-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
     }
 }
