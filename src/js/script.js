@@ -66,8 +66,34 @@ $(document).ready(function (){
         $('#order .modalNew__descr').text($('.catalog-item__subtitle').eq(i).text())
         $('.overlay, #order').fadeIn();
       })
-    })
+    })   
 
+  function valideForms(form){
+    $(form).validate({
+      rules:{
+        name: "required",
+        phone: "required",
+        email: {
+          required: true,
+          email: true
+        }
+      },
+      messages: {
+        name: "Погремуху вбей",
+        phone: "Мобильник намба",
+        email: {
+          required: "Мыло запихни",
+          email: "Не так"
+        }
+      }
+    });  
+  }
+
+  valideForms('#consultation-form');
+  valideForms('#consultation form');
+  valideForms('#order form');
+
+  $('input[name=phone]').mask("(999) +888");
 });
 
 /* const slider = tns({

@@ -1,0 +1,64 @@
+@media (max-width: 991px) {
+
+
+}
+@media (max-width: 648px) {
+    .header {
+        &__contacts {
+            align-items: start;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .ours  {
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__descr_title, &__descr_text {
+            margin-top: 0;          
+        } 
+    }
+    .consultation {
+        h2 {
+            font-size: 25px;
+        } 
+    }
+}
+@media (max-width: 500px) {
+    .ours {
+        padding: 40px 0 40px 0;
+        &__subheader {
+            font-size: 15px;
+        }
+}    
+    .header {
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 200px;
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 10px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icons {
+            padding-top: 10px;
+            justify-content: flex-end;
+        }
+    }
+}
+@media (max-width: 350px) {
+    .promo {
+        &__icon {
+            width: 80px;
+        }
+    }
+
+}
