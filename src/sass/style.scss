@@ -1,6 +1,7 @@
 @import "libs/bootstrap-reboot.min";
 @import "libs/font";
 @import "libs/slick";
+@import "libs/animate";
 
 @import 'base/variables';
 
@@ -30,3 +31,5 @@ a {
 @import 'blocks/footer';
 @import 'blocks/modalNew';
 @import 'base/adopt';
+@import 'blocks/up';
+@import 'base/animation';

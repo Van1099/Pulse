@@ -94,6 +94,24 @@ $(document).ready(function (){
   valideForms('#order form');
 
   $('input[name=phone]').mask("(999) +888");
+
+  //Smoothscroll
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1600) {
+      $(".pageup").fadeIn();
+    } else {
+      $(".pageup").fadeOut();
+    }
+  });
+  //сам скрипт плавной прокрутки до секции, на которую ведет локальная ссылка, работает для всех ссылок, начинающихся на #
+  $("a[href^='#']").click(function () {
+    const _href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+    return false;
+  });
+
+  new WOW().init();
+
 });
 
 /* const slider = tns({
