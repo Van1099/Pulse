@@ -4,6 +4,8 @@
 @import "libs/animate";
 
 @import 'base/variables';
+@import 'base/animation';
+@import 'base/adopt';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -30,6 +32,5 @@ a {
 @import 'blocks/response';
 @import 'blocks/footer';
 @import 'blocks/modalNew';
-@import 'base/adopt';
 @import 'blocks/up';
-@import 'base/animation';
+
